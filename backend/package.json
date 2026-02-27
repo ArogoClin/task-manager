@@ -1,0 +1,32 @@
+{
+  "name": "task-manager-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Task Manager API with Express and Prisma",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js",
+    "db:migrate": "npx prisma migrate dev",
+    "db:studio": "npx prisma studio",
+    "db:generate": "npx prisma generate",
+    "db:seed": "node prisma/seed.js"
+  },
+  "keywords": [
+    "express",
+    "prisma",
+    "rest-api"
+  ],
+  "author": "Arogo",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^6.16.2",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "prisma": "^6.16.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
