@@ -44,9 +44,9 @@ This task management application allows users to efficiently organize their work
 
 | Technology | Version | Purpose |
 |-----------|---------|---------|
-| Node.js | 18+ | Runtime environment |
-| Express | 4.x | Web framework |
-| Prisma | 5.x | ORM and database toolkit |
+| Node.js | 22.19.0 | Runtime environment |
+| Express | 5.2.1 | Web framework |
+| Prisma | 6.16.2 | ORM and database toolkit |
 | SQLite | - | Database |
 | CORS | - | Cross-origin resource sharing |
 | dotenv | - | Environment variable management |
@@ -55,9 +55,9 @@ This task management application allows users to efficiently organize their work
 
 | Technology | Version | Purpose |
 |-----------|---------|---------|
-| React | 18.x | UI library |
-| Vite | 5.x | Build tool and dev server |
-| Tailwind CSS | 3.4.x | Utility-first CSS framework |
+| React | 19.2.0 | UI library |
+| Vite | 7.3.1 | Build tool and dev server |
+| Tailwind CSS | 3.4.17 | Utility-first CSS framework |
 | Lucide React | Latest | Icon library |
 | Axios | Latest | HTTP client |
 | React Hot Toast | Latest | Toast notifications |
@@ -150,7 +150,7 @@ git --version
 
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone <https://github.com/ArogoClin/task-manager.git>
 cd task-manager
 
 # Backend setup
@@ -600,9 +600,9 @@ The color scheme uses blue as the primary color (professional, trustworthy), wit
 
 **Your Name**
 
-- Email: your.email@example.com
-- GitHub: [yourusername](https://github.com/yourusername)
-- LinkedIn: [Your Name](https://linkedin.com/in/yourprofile)
+- Email: clintonomosh254@gmail.com
+- GitHub: [yourusername](https://github.com/ArogoClin)
+- LinkedIn: [Your Name](https://linkedin.com/in/clintone-omondi)
 
 ---
 
